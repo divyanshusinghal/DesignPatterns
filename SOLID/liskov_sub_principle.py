@@ -1,4 +1,5 @@
 # liskov substitution principle
+# you should be able to substitute base type for sub type in a particular functionality and it should work as intended
 
 # if there is an interface, that takes some sort of base class.
 # then we should be able to stick a derived class within the interface, and everything should work
@@ -9,6 +10,8 @@
 
 # one way to resolve the problem would have been to simply not create the Square Class.
 # but instead create a check attribute within the Rectangle class to see if it is a square or not
+
+
 class Rectangle:
     def __init__(self, width, height):
         self._width = width
